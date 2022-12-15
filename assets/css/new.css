@@ -1,0 +1,26 @@
+.new{
+    margin-top: 2.5rem;
+    background-color: rgb(0, 0, 26);
+}
+
+.new__notice--primary-title{
+    color: rgb(230, 173, 84);
+    margin-left: 1rem;
+}
+
+.new__notice{
+}
+.new__notice--title{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.new__notice--text{
+    color: rgb(171, 171, 195);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.new__notice--separate{
+    margin-left: 1rem;
+}

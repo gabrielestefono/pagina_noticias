@@ -1,0 +1,29 @@
+.most-readed{
+}
+
+.most-readed__block{
+    width: calc(100vw - 2rem);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.most-readed__block--image{
+    width: 30%;
+}
+
+.most-readed__block--leftside{
+    margin-left: 1rem;
+}
+
+.most-readed__block--leftside-rank{
+    color: rgb(201, 200, 208);
+}
+
+.most-readed__block--leftside-title{
+    color: black;
+}
+
+.most-readed__block--leftside-text{
+    color: black;
+}
