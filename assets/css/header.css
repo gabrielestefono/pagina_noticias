@@ -34,4 +34,5 @@
     margin-top: 2rem;
     height: 2rem;
     cursor: pointer;
+    z-index: 1;
 }

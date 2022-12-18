@@ -12,18 +12,25 @@
     width: 30%;
 }
 
-.most-readed__block--leftside{
+.most-readed__block--rightside{
     margin-left: 1rem;
 }
 
-.most-readed__block--leftside-rank{
+.most-readed__block--rightside-rank{
     color: rgb(201, 200, 208);
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.most-readed__block--leftside-title{
+.most-readed__block--rightside-title{
     color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
-.most-readed__block--leftside-text{
+.most-readed__block--rightside-text{
     color: black;
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
 }

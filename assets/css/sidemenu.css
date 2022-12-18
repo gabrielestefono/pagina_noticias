@@ -1,0 +1,18 @@
+.sidemenu--show{
+    width: 68vw;
+    height: 3100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    transition: 0.15s;
+}
+
+.sidemenu--hide{
+    right: -500vw;
+    width: 68vw;
+    height: 3100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    transition: 0.15s;
+}
+
