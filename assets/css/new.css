@@ -15,13 +15,19 @@
     margin-top: 2rem;
 }
 
-.new__notice--title{
+.new__notice--title-link{
+    text-decoration: none;
     color: white;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-weight: 700;
 }
+
+.new__notice--title-link:hover{
+    color: rgb(230, 173, 84);
+}
+
 .new__notice--text{
     color: rgb(171, 171, 195);
     margin-top: 1rem;

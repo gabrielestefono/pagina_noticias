@@ -95,5 +95,11 @@ criarLinkItemPopular.classList = 'sidemenu__div-secundaria--lista-item_link'
 criarLinkItemTrending.classList = 'sidemenu__div-secundaria--lista-item_link'
 criarLinkItemCategories.classList = 'sidemenu__div-secundaria--lista-item_link'
 
+// Adicionando Links aos itens
+criarLinkItemHome.href = '#'
+criarLinkItemNew.href = '#'
+criarLinkItemPopular.href = '#'
+criarLinkItemTrending.href = '#'
+criarLinkItemCategories.href = '#'
 
 //ADDEVENTLISTERNER FICOU SEPARADO NO ARQUIVO SCRIPT.JS
