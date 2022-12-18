@@ -76,7 +76,24 @@ criarDivPrincipal.classList = 'sidemenu--hide';
 criarDivPrincipal.id = 'show';
 
 // ## DIV Secundária
+criarDivSecundaria.classList = 'sidemenu__div-secundaria'
 
+// ### Lista não ordernada
+criarListaNaoOrdenada.classList = 'sidemenu__div-secundaria--lista'
+
+// #### Itens da lista
+criarItemHome.classList = 'sidemenu__div-secundaria--lista-item'
+criarItemNew.classList = 'sidemenu__div-secundaria--lista-item'
+criarItemPopular.classList = 'sidemenu__div-secundaria--lista-item'
+criarItemTrending.classList = 'sidemenu__div-secundaria--lista-item'
+criarItemCategories.classList = 'sidemenu__div-secundaria--lista-item'
+
+// ##### Links da lista
+criarLinkItemHome.classList = 'sidemenu__div-secundaria--lista-item_link'
+criarLinkItemNew.classList = 'sidemenu__div-secundaria--lista-item_link'
+criarLinkItemPopular.classList = 'sidemenu__div-secundaria--lista-item_link'
+criarLinkItemTrending.classList = 'sidemenu__div-secundaria--lista-item_link'
+criarLinkItemCategories.classList = 'sidemenu__div-secundaria--lista-item_link'
 
 
 //ADDEVENTLISTERNER FICOU SEPARADO NO ARQUIVO SCRIPT.JS
