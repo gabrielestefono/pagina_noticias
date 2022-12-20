@@ -1,5 +1,8 @@
 .container__image{
     width: calc(100vw - 2rem);
+    height: 18rem;
+    background-image: url(../img/image-web-3-mobile.jpg);
+    background-size: cover;
     margin: 2rem auto 0 auto;
     display: block;
 }
@@ -29,4 +32,34 @@
 
 .container__read-more:hover{
     background-color: rgb(0, 0, 26);
+}
+
+
+@media screen and (min-width: 1024px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100vw / 8) * 4);
+        margin: 0;
+    }
+
+    .container__image{
+        width: calc(100vw / 2);
+        height: 16rem;
+        margin-left: calc(100vw / 8);
+        background-image: url(../img/image-web-3-desktop.jpg);
+        background-size: cover;
+    }
+
+    .container__title{
+        width: calc(100vw / 4);
+    }
+
+    .container__text{
+
+    }
+
+    .container__read-more{
+
+    }
 }

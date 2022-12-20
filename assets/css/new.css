@@ -2,7 +2,6 @@
     background-color: rgb(0, 0, 26);
     display: flex;
     flex-direction: column;
-    width: 92%;
     margin: 2rem auto 0 auto;
 }
 
@@ -39,4 +38,11 @@
 .new__notice--separate{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    .new{
+        width: calc((100vw / 8) * 3);
+        margin:0;
+    }
 }
