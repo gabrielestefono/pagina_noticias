@@ -36,3 +36,7 @@
     cursor: pointer;
     z-index: 1;
 }
+
+@media screen and (min-width: 1024px){
+    
+}
