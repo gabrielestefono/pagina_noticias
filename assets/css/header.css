@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+.header__logo{
+    background-image: url(../img/logo.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+
+
+.header__hamburger{
+    background-image: url(../img/icon-menu.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+
+
+.header__hamburger--close{
+    background-image: url(../img/icon-menu-close.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.5rem; 
+}

@@ -1,0 +1,79 @@
+.content{
+}
+
+.content__presentation{
+    width: calc(100vw - 2rem);
+    margin: 0 auto;
+}
+
+.content__presentation--image{
+    background-image: url(../img/image-web-3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 18rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.content__presentation--title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.content__presentation--text{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.content__presentation--readmore{
+    margin-top: 1rem;
+    width: 50%;
+    height:3rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: red;
+}
+
+.content__news{
+    width: calc(100vw - 2rem);
+    margin: 0 auto;
+    background-color: blue;
+    margin-top: 3rem;
+}
+
+.content__news--block{
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    display: block;
+}
+
+.content__news--block_label{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    color: red;
+}
+
+.content__news--block_title{
+    margin-top: 1rem;
+}
+
+.content__news--block_title-link{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.content__news--block_text{
+    margin-top: 1rem;
+    color: white;
+}
+
+.content__news--block_text:last-child{
+    padding-bottom: 2rem;
+}
+

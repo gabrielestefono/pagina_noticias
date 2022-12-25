@@ -1,0 +1,45 @@
+.mostreaded{
+    width: calc(100vw - 2rem);
+    margin: 3rem auto 0 auto;
+
+}
+
+.mostreaded__block{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.mostreaded__block:last-child{
+    margin-bottom: 4rem;
+}
+
+.mostreaded__block--image{
+    width: 8rem;
+}
+
+.mostreaded__block--rightside{
+    margin-left: 0.5rem;
+}
+
+.mostreaded__block--rightside_rank{
+    font-size: 2rem;
+    color: red;
+}
+
+.mostreaded__block--rightside_title{
+    margin-top: 0.5rem;
+}
+
+.mostreaded__block--rightside_title-link{
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.mostreaded__block--rightside_text{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
