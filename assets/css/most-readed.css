@@ -43,3 +43,14 @@
     line-height: 2rem;
 }
 
+@media screen and (min-width: 1024px){
+    .mostreaded{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .mostreaded__block--image{
+        width: 8rem;
+        height: 10rem;
+    }
+}
