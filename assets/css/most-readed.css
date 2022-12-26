@@ -47,6 +47,7 @@
     .mostreaded{
         display: grid;
         grid-template-columns: repeat(3, auto);
+        width: calc((100vw / 4) * 3);
     }
 
     .mostreaded__block--image{
