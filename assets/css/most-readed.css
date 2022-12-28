@@ -37,6 +37,10 @@
     color: black;
 }
 
+.mostreaded__block--rightside_title-link:hover{
+    color: rgb(248, 89, 85);
+}
+
 .mostreaded__block--rightside_text{
     margin-top: 0.5rem;
     font-size: 0.9rem;
