@@ -1,6 +1,6 @@
-# Página de Noctícias
+# Página de Notícias
 
-O projeto Página de Noctícias é uma página de um suposto jornal. O projeto foi tirado do website frontend mentor, tem como objetivo treinamento e aprimoramento de habilidades.
+O projeto Página de Notícias é uma página de um suposto jornal. O projeto foi tirado do website frontend mentor, tem como objetivo treinamento e aprimoramento de habilidades.
 // O projeto foi pausado por causa de uma formatação forçada do meu computado, quando tiver um pouco mais de tempo, será finalizada.
 
 ## Pré Requisitos
